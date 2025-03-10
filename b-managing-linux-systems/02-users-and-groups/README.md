@@ -33,4 +33,4 @@ Mark challenges using a ✅ once they are finished.
 
 ## ❌ Semester Account
 
-*Create a new account for an exchange student called `maggie`. Make sure the account can only be used until 31st of January of the next year. Basically only for this semester*.
+*Create a new account for an exchange student called `maggie`. Make sure the account can only be used until 31st of august of the next year. Basically only for this semester*.
