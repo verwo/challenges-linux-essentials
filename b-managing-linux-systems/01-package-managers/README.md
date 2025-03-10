@@ -14,7 +14,7 @@ Mark challenges using a ✅ once they are finished.
 
 *Install the `nmap` package using `apt`.*
 
-*Port scan the server `fenix.devbit.be`. Make sure you are connected to the lab network. What services are running on this machine?*
+*Port scan the server `docker.veict.lan`. Make sure you are connected to the lab network. What services are running on this machine?*
 
 ## ❌ NodeJS
 
@@ -34,7 +34,7 @@ console.log("Hello World from JavaScript");
 
 ## ❌ MQTT
 
-*Find a command line tool that allows you to publish messages to an MQTT broker. Use it to send your name to the topic `linux/students`. Use the broker `mqtt.devbit.be`.*
+*Find a command line tool that allows you to publish messages to an MQTT broker. Use it to send your name to the topic `linux/students`. Use the broker `emqx.veict.lan`. Use following credentials user:student pssword:Student123 * 
 
 ## ❌ tree command
 
