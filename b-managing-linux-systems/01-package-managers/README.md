@@ -34,7 +34,7 @@ console.log("Hello World from JavaScript");
 
 ## ❌ MQTT
 
-*Find a command line tool that allows you to publish messages to an MQTT broker. Use it to send your name to the topic `linux/students`. Use the broker `emqx.veict.lan`. Use following credentials user:student pssword:Student123 * 
+*Find a command line tool that allows you to publish messages to an MQTT broker. Use it to send your name to the topic `linux/students`. Use the broker `emqx.veict.lan`. Use following credentials user:student pssword:Student123* 
 
 ## ❌ tree command
 
