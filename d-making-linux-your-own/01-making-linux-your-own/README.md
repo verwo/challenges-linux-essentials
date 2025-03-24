@@ -1,7 +1,7 @@
 Making Linux Your Own (WSL)
 
 > Probeer de challenges op te lossen **zonder Google**. Gebruik de **man-pages** om de nodige info te vinden.  
-> Markeer met een ✅ wanneer afgewerkt. Je werkt in **WSL (Windows Subsystem for Linux)**.
+> Markeer met een ✅ wanneer afgewerkt.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Challenge Reeks
 > Probeer de challenges op te lossen **zonder Google**. Gebruik de **man-pages** om de nodige info te vinden.  
-> Markeer met een ✅ wanneer afgewerkt. Werkduur: **30–40 minuten**.
+> Markeer met een ✅ wanneer afgewerkt. 
 
 ---
 
