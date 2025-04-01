@@ -105,4 +105,3 @@ Druk op Enter.
 ## 🎉 Klaar!
 
 Je kunt nu veilig werken met GitHub via HTTPS met je eigen Personal Access Token.
-
