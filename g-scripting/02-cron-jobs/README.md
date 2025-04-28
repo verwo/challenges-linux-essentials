@@ -4,7 +4,6 @@ Gebruik geen Google. Raadpleeg man crontab, man 5 crontab, man mosquitto_pub, en
 
 Markeer voltooide opdrachten met een ✅.
 
-🔧 Deel 1: Praktische cron-jobs (± 40 minuten)
 ❌ I am Alive
 Maak een cronjob die elke 15 minuten een bericht stuurt naar de MQTT-broker mqtt.devbit.be op het topic linux/alive/<jouwnaam> met een bericht zoals Still alive.
 
@@ -40,7 +39,6 @@ find ~/oldlogs/ -type f -mtime +7 -delete
 ❌ Weekly Uptime
 Stuur elke maandag om 08:00 de output van uptime naar linux/uptime/<jouwnaam> via MQTT.
 
-🧠 Deel 2: Cron-syntax quiz (± 20 minuten)
 Vul onderstaande opdrachten in op papier of via een online formulier.
 
 ✅ 1. Wat betekent deze cronregel?
