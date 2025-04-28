@@ -1,8 +1,8 @@
 # Basic Shell Scripting
 
-Solve the challenges by creating small bash scripts. Place the bash scripts here for every challenge. Make sure to add some comments and explain how they work.
+Los de uitdagingen op door kleine bash-scripts te maken. Plaats de bash-scripts hier voor elke uitdaging. Zorg ervoor dat je enkele opmerkingen toevoegt en uitlegt hoe ze werken.
 
-Mark challenges using a ✅ once they are finished.
+Markeer de uitdagingen met een ✅ zodra ze zijn voltooid.
 
 ## Je Eerste Shell Script
 
