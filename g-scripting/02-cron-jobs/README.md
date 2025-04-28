@@ -8,7 +8,9 @@ Markeer voltooide opdrachten met een ✅.
 
 ## ❌ I am Alive
 
-Maak een cronjob die elke 15 minuten een bericht stuurt naar de MQTT-broker mqtt.devbit.be op het topic linux/alive/<jouwnaam> met een bericht zoals Still alive.
+Maak een cronjob die elke 15 minuten een bericht stuurt naar de MQTT-broker emqx.veict.lan op het topic linux/alive/<jouwnaam> met een bericht zoals Still alive.
+
+credentials user:student password:Student123
 
 ```
 mosquitto_pub -h mqtt.devbit.be -t linux/alive/<jouwnaam> -m "Still alive"
