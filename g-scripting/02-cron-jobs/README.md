@@ -6,25 +6,25 @@ Gebruik geen Google. Raadpleeg man crontab, man 5 crontab, man mosquitto_pub, en
 
 Markeer voltooide opdrachten met een ✅.
 
-❌ I am Alive
+## ❌ I am Alive
 
 Maak een cronjob die elke 15 minuten een bericht stuurt naar de MQTT-broker mqtt.devbit.be op het topic linux/alive/<jouwnaam> met een bericht zoals Still alive.
 
 ```
 mosquitto_pub -h mqtt.devbit.be -t linux/alive/<jouwnaam> -m "Still alive"
 ```
-❌ My IP
+## ❌ My IP
 
 Maak een cronjob die elke minuut het IP-adres van je Raspberry Pi publiceert op het topic linux/ip/<jouwnaam>.
 
 ```
 hostname -I | awk '{print $1}'
 ```
-❌ Daily Disk Usage Report
+## ❌ Daily Disk Usage Report
 
 Log dagelijks om 07:00 de uitvoer van df -h naar ~/disk_usage.log. De output moet worden toegevoegd aan het logbestand (niet overschreven!).
 
-❌ Temperature Monitor
+## ❌ Temperature Monitor
 
 Controleer elke 10 minuten de CPU-temperatuur met dit commando:
 
@@ -33,18 +33,18 @@ cat /sys/class/thermal/thermal_zone0/temp
 ```
 De waarde moet gedeeld worden door 1000 om Celsius te krijgen. Stuur het resultaat naar linux/temp/<jouwnaam> via MQTT.
 
-❌ Reboot Notifier
+## ❌ Reboot Notifier
 
 Maak een cronjob die bij elke reboot een bericht stuurt naar linux/reboot/<jouwnaam> met de tekst Rebooted at <timestamp>. Gebruik date voor de timestamp.
 
-❌ Clean Up Logs
+## ❌ Clean Up Logs
 
 Verwijder elke zondag om 03:30 logbestanden ouder dan 7 dagen uit de map ~/oldlogs/.
 
 ```
 find ~/oldlogs/ -type f -mtime +7 -delete
 ```
-❌ Weekly Uptime
+## ❌ Weekly Uptime
 
 Stuur elke maandag om 08:00 de output van uptime naar linux/uptime/<jouwnaam> via MQTT.
 
