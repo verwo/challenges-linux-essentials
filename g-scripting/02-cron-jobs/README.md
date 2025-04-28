@@ -1,4 +1,4 @@
-oel: Je leert hoe je cronjobs instelt, interpreteert en gebruikt voor automatisatie op een Linux-systeem.
+Je leert hoe je cronjobs instelt, interpreteert en gebruikt voor automatisatie op een Linux-systeem.
 
 Gebruik geen Google. Raadpleeg man crontab, man 5 crontab, man mosquitto_pub, enz.
 
