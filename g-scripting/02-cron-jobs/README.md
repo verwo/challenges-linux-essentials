@@ -13,7 +13,7 @@ Maak een cronjob die elke 15 minuten een bericht stuurt naar de MQTT-broker emqx
 credentials user:student password:Student123
 
 ```
-mosquitto_pub -h mqtt.devbit.be -t linux/alive/<jouwnaam> -m "Still alive"
+mosquitto_pub -h emqx.veict.lan -t linux/alive/<jouwnaam> -m "Still alive"
 ```
 ## ❌ My IP
 
